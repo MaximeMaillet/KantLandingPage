@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'basic';
+    src: url('{PUBLIC}/bluehighway.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'text';
+    src: url('{PUBLIC}/LinLibertine.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    color: #212121;
+}
+
+/**
+* Header
+*/
+header {
+    position: relative;
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    height: 50px;
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+header nav.Knav {
+    text-align: center;
+    padding-top: 5px;
+}
+
+header nav.Knav ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+header nav.Knav ul li {
+    display: inline-block;
+    margin: 0px 10% 0px 10%;
+}
+
+header nav.Knav ul li a {
+    color: #337ab7;
+    font-size: 30px;
+}
+
+header nav.Knav ul li a:hover {
+    text-decoration: none;
+    color: #5bc0de;
+}
+
+/**
+* Section
+*/
+section#loader {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9;
+    padding-top: 10%;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+section.block {
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section.block h3 {
+    margin: 0px;
+}
+section.block {
+    padding-top: 3%;
+}
+section#presentation {
+    padding-top: 8%;
+}
+section.block div.frame {
+    width: 60%;
+    margin: 0 20% 0 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3px;
+    box-shadow: 1px 1px 1px #000000;
+    overflow: hidden;
+}
+section.block div.frame div.header {
+    min-height: 200px;
+    overflow: hidden;
+    margin: 5px;
+}
+section.block div.frame div.footer {
+    min-height: 200px;
+    overflow: hidden;
+    background-color: #D7CCC8;
+    margin: 5px;
+    padding: 10px 5px 10px 5px;
+    font-size: 18px;
+    text-align: center;
+}
+section.block div.frame h1,
+section.block div.frame h2 {
+    margin: 0px;
+    font-family: "basic", serif;
+}
+section.block div.frame h1 {
+    font-size: 34px;
+}
+section.block div.frame h2 {
+    font-size: 20px;
+}
+section.block div.frame div.picture {
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+}
+section.block div.frame div.data {
+    font-size: 15px;
+    font-family: "text", serif;
+}

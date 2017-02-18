@@ -1,0 +1,8 @@
+tests/
+vendor/
+.htaccess
+index.php
+route.json
+composer.lock
+.idea/
+public/
