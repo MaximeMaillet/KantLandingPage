@@ -3,8 +3,7 @@
     "description": "Simple landing page",
     "type": "library",
     "require": {
-        "2max/cssmanager": "^1.0@alpha",
-        "2max/improuter": "^1.0@alpha"
+        "2max/cssmanager": "^1.0@alpha"
     },
     "license": "MIT",
     "authors": [
@@ -14,11 +13,6 @@
         }
     ],
     "minimum-stability": "alpha",
-    "scripts": {
-        "imp:install": "M2Max\\ImpRouter\\ImpCli::install",
-        "imp:reset": "M2Max\\ImpRouter\\ImpCli::reset",
-        "imp:example": "M2Max\\ImpRouter\\ImpCli::example"
-    },
     "autoload": {
         "psr-4" : {"M2Max\\" : "src"}
     }
