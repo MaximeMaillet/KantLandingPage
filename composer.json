@@ -3,7 +3,8 @@
     "description": "Simple landing page",
     "type": "library",
     "require": {
-        "2max/cssmanager": "^1.0@alpha"
+        "2max/cssmanager": "^1.0@alpha",
+        "2max/kantthumbnail": "^1.0@alpha"
     },
     "license": "MIT",
     "authors": [

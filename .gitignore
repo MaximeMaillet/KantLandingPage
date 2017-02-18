@@ -6,3 +6,4 @@ route.json
 composer.lock
 .idea/
 public/
+.DS_Store
