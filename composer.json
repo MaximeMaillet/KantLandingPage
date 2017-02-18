@@ -13,7 +13,7 @@
             "email": "maxime.maillet93@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "scripts": {
         "imp:install": "M2Max\\ImpRouter\\ImpCli::install",
         "imp:reset": "M2Max\\ImpRouter\\ImpCli::reset",
